@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mensagem de Amor</title>
+  <style>
+    body {
+      background-color: #f0f8ff;
+      color: #222;
+      font-family: 'Segoe UI', sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      text-align: center;
+      padding: 20px;
+    }
+    .mensagem {
+      font-size: 1.8rem;
+      background: #fff;
+      padding: 30px;
+      border-radius: 15px;
+      box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+      max-width: 600px;
+    }
+  </style>
+</head>
+<body>
+  <div class="mensagem" id="mensagem"></div>
+
+  <script>
+    const mensagens = [
+      "Você é resposta de oração.",
+      "O amor de Deus te sustenta. Nunca pare de crer.",
+      "Mesmo em silêncio, Deus está trabalhando por você.",
+      "Nada é impossível para Deus. Confie!",
+      "Ame o próximo como a si mesmo – Mateus 22:39",
+      "Você é amado(a) por um Deus que não falha.",
+      "Deus te escolheu. Levante-se e brilhe!",
+      "A fé move montanhas. Continue acreditando.",
+      "Deus está contigo em cada passo.",
+      "Seu valor é infinito para Deus.",
+      "Confie nos planos de Deus. Eles são perfeitos.",
+      "O amor de Deus renova todas as coisas.",
+      "A presença de Deus acalma qualquer tempestade.",
+      "Deus não se esqueceu de você.",
+      "Cada amanhecer é prova do amor de Deus.",
+      "Seja luz onde Deus te plantar.",
+      "Você foi criado com um propósito eterno.",
+      "Deus cuida dos detalhes da sua vida.",
+      "A paz que vem de Deus excede todo entendimento.",
+      "Deus transforma dor em testemunho.",
+      "Você não está sozinho. Deus está com você.",
+      "Espere no Senhor com fé e coragem.",
+      "Deus honra os que permanecem firmes.",
+      "Há poder no nome de Jesus.",
+      "A graça de Deus é suficiente para você.",
+      "O tempo de Deus é perfeito.",
+      "Tenha fé, mesmo quando não entender.",
+      "Você é templo do Espírito Santo.",
+      "Deus abre caminhos onde não há saída.",
+      "Não temas, Deus vai à sua frente.",
+      "Você é mais que vencedor em Cristo.",
+      "Nada pode separar você do amor de Deus.",
+      "Permaneça firme. Deus está agindo.",
+      "Onde há fé, milagres acontecem.",
+      "Você é precioso(a) para Deus.",
+      "Nunca é tarde para recomeçar com Deus.",
+      "Ore, mesmo quando parecer difícil.",
+      "Deus enxuga cada lágrima sua.",
+      "Espalhe o amor de Cristo por onde for.",
+      "A fé te leva onde a lógica não alcança.",
+      "Sua história não acabou. Deus está escrevendo.",
+      "Quando faltar força, Deus será seu sustento.",
+      "Deus é especialista em causas impossíveis.",
+      "Ele te chamou pelo nome. Você é Dele.",
+      "Jesus é o caminho, a verdade e a vida.",
+      "Mesmo sem ver, creia. Deus está agindo.",
+      "Abençoe, mesmo quando doer.",
+      "Seja resposta de oração na vida de alguém.",
+      "Sorria. Deus está cuidando de tudo.",
+      "A vitória vem depois da perseverança.",
+      "A esperança em Deus nunca falha."
+      // ... Adicione mais mensagens aqui até completar 200
+    ];
+
+    const index = Math.floor(Math.random() * mensagens.length);
+    document.getElementById('mensagem').textContent = mensagens[index];
+  </script>
+</body>
+</html>
